@@ -70,10 +70,10 @@ public class SettingsUHC {
         this.messageUHCNotInConfigState = String.valueOf(configuration.getString("Messages.UHC_Not_Config_State"));
         this.messageUHCNotStarted = String.valueOf(configuration.getString("Messages.UHC_Not_Started"));
         this.messageUHCAlreadyEnd = String.valueOf(configuration.getString("Messages.UHC_Already_End"));
-        this.messagePlayerAlreadyList = String.valueOf(configuration.getString("Messages.UHC_Already_End")).replace("{player}","{0}");
-        this.messagePlayerAddList = String.valueOf(configuration.getString("Messages.UHC_Already_End")).replace("{player}","{0}");
-        this.messagePlayerRemoveList = String.valueOf(configuration.getString("Messages.UHC_Already_End")).replace("{player}","{0}");
-        this.messagePlayerNotInList = String.valueOf(configuration.getString("Messages.UHC_Already_End")).replace("{player}","{0}");
+        this.messagePlayerAlreadyList = String.valueOf(configuration.getString("Messages.UHC_Player_Already_In_List"));
+        this.messagePlayerAddList = String.valueOf(configuration.getString("Messages.UHC_Player_Add_List"));
+        this.messagePlayerRemoveList = String.valueOf(configuration.getString("Messages.UHC_Player_Remove_List"));
+        this.messagePlayerNotInList = String.valueOf(configuration.getString("Messages.UHC_Player_Not_In_List"));
     }
 
     public static SettingsUHC getInstance() {

@@ -20,14 +20,14 @@ public class UHCPlayerCommand {
 
         if(this.uhcManager.getUHC().getPlayers().contains(player)) {
             sender.sendMessage(
-                    String.format(SettingsUHC.getInstance().messagePlayerAlreadyList, player.getName())
+                   SettingsUHC.getInstance().messagePlayerAlreadyList.replace("{player}", player.getName())
             );
             return;
         }
 
         this.uhcManager.getUHC().addPlayer(player);
         sender.sendMessage(
-                String.format(SettingsUHC.getInstance().messagePlayerAddList, player.getName())
+                SettingsUHC.getInstance().messagePlayerAddList.replace("{player}", player.getName())
         );
     }
 
@@ -36,14 +36,14 @@ public class UHCPlayerCommand {
 
         if(!this.uhcManager.getUHC().getPlayers().contains(player)) {
             sender.sendMessage(
-                    String.format(SettingsUHC.getInstance().messagePlayerNotInList, player.getName())
+                    SettingsUHC.getInstance().messagePlayerNotInList.replace("{player}", player.getName())
             );
             return;
         }
 
         this.uhcManager.getUHC().removePlayer(player);
         sender.sendMessage(
-                String.format(SettingsUHC.getInstance().messagePlayerRemoveList, player.getName())
+                SettingsUHC.getInstance().messagePlayerRemoveList.replace("{player}", player.getName())
         );
     }
 
