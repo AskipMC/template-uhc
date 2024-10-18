@@ -1,0 +1,24 @@
+UHC: # use as a default config when an UHC is init
+  Diamond_Limit: 17
+  Border_Size: 1000
+  World_Name: "world"
+
+Messages:
+  UHC_Already_Started: "Impossible de réaliser cette commande, un UHC est déjà commencé."
+  UHC_Already_Created: "Impossible de réaliser cette commande, un UHC est déjà créé."
+  UHC_Cant_Delete: "Impossible de réaliser cette commande, il faut d'abord arreter l'UHC pour le supprimer. (/uhc stop)"
+  UHC_Not_Exist: "Impossible de réaliser cette commande, aucun UHC est en cours."
+  UHC_Created: "L'UHC a bien été créé."
+  UHC_Deleted: "L'UHC a bien été supprimé."
+  UHC_Stopped: "L'UHC a bien été stoppé."
+  UHC_Started: "L'UHC a bien été commencé."
+  UHC_Reach_Diamond_Limit: "Vous avez déjà atteint la limite de diamants."
+  UHC_Help: "Message d'aide pour le plugin UHC (cf : github.com/askipmc)"
+  UHC_Player_Not_Exist: "Ce joueur n'existe pas"
+  UHC_Not_Config_State: "Impossible de réaliser ca, l'UHC doit être dans un état de configuration."
+  UHC_Not_Started: "Impossible d'effectuer cela, l'UHC n'est même pas commencé (/uhc start)"
+  UHC_Already_End: "Impossible d'effectuer cela, l'UHC est déjà terminé"
+  UHC_Player_Already_In_List: "Le joueur {player} est déjà dans la liste." # {player} to use the player name
+  UHC_Player_Add_List: "Le joueur {player} a été ajouté à la liste." # {player} to use the player name
+  UHC_Player_Remove_List: "Le joueur {player} a été retiré de la liste." # {player} to use the player name
+  UHC_Player_Not_In_List: "Le joueur {player} n'est pas dans la liste." # {player} to use the player name

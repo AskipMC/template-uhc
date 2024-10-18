@@ -1,0 +1,10 @@
+name: TemplateUHC
+version: '${project.version}'
+main: fr.matt.templateuhc.TemplateUHC
+api-version: '1.20'
+commands:
+  uhc:
+    description: command that manage the uhc game
+    usage: "/uhc help"
+    permission: uhc.use
+    permission-message: Vous n'avez pas le droit d'executer cette commande
